@@ -1,3 +1,4 @@
+//tetste
 let listaAmigos = [];
 
 function adicionar(){
