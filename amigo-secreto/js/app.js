@@ -20,7 +20,7 @@ function sortear(){
     embaralhar(listaAmigos)
     let sorteio = document.getElementById("lista-sorteio");
     for(let i = 0; i< listaAmigos.length; i++){
-        if (i == listaAmigos.length){
+        if (i+1 == listaAmigos.length){
             sorteio.innerHTML =sorteio.innerHTML +  listaAmigos[i] + '--->' + listaAmigos[0] + "<br>";
         }
         else{
